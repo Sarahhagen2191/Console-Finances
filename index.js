@@ -87,5 +87,14 @@ var finances = [
 ['Feb-2017', 671099]
 ];
 
-
 console.log(finances.length);
+
+let sum = 0;
+for(let i=0;i<finances.length;i++){
+  for(let j=1;j<finances[i].length;j++){
+    sum +=finances[i][j];
+  }
+}
+
+console.log(sum);
+
