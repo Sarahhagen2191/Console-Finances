@@ -87,14 +87,25 @@ var finances = [
 ['Feb-2017', 671099]
 ];
 
-console.log(finances.length);
+// // total number of month//
+console.log("Financial Analysis")
+console.log("----------------------------")
 
-let sum = 0;
-for(let i=0;i<finances.length;i++){
-  for(let j=1;j<finances[i].length;j++){
-    sum +=finances[i][j];
+var totalMonths = finances.length;
+console.log("Total Months: " + totalMonths);
+
+
+// // the net total amount of profit/loss over the period//
+var totalsum = 0;
+
+for(var i=0;i<finances.length;i++){
+  for(var j=1;j<finances[i].length;j++){
+    totalsum +=finances[i][j];
   }
 }
 
-console.log(sum);
+console.log("Total: $" + totalsum);
+
+
+
 
