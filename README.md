@@ -15,8 +15,6 @@ Link to the live version - https://sarahhagen2191.github.io/Console-Finances/
 
 # Screenshot
 
-![Images](Screenshot 2022-12-10 at 12.35.28.png)
-
 # Installation
 
 To install just click gh repo clone https://github.com/Sarahhagen2191/Console-Finances.git
